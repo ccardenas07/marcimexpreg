@@ -1,0 +1,163 @@
+div#body{
+	width:600px;
+	min-height:50px;
+	background-color:#F00;
+        font-family:Arial, Helvetica, sans-serif;
+}
+div.subapartado
+{
+	width:600px;
+	min-height:50px;
+	background-color:#fbfbfb;
+	
+}
+div.titulo
+{
+	width:600px;
+	height:50px;
+	background-color:#fbfbfb;
+	overflow:hidden;
+	border:1px #c2c8c6 solid;
+}
+p.titulo
+{
+	margin:13px;
+	color:#3094c6;
+	font-weight: bold;
+	font-size:14px;
+}
+div.informacion
+{
+	width:600px;
+	height:0px;
+	background-color:#f5f5f5;
+	overflow:hidden;
+	-webkit-transition:height 0.2s;
+       overflow-y: auto;
+	font-size:14px;
+	text-align:justify;
+}
+p.informacion
+{
+	margin:20px;
+	text-align:justify;
+	color:#5d7736;
+        
+	
+}
+div.subapartado:hover div.informacion
+{
+	height:120px;
+}
+.wrapper
+{
+	 width:790px;
+	 height:700px;
+	 background:url(../imagenes/fondo_faq.jpg) no-repeat top center; 
+	 margin: 0 auto;
+	 }
+.men2u
+{ 
+	background: none repeat scroll 0 0 #0079C2;
+    clear: right;
+    float: right;
+    height: 70px;
+    margin: 0 50px 10px;
+    min-height: 7%;
+    width: 690px;
+}
+.men2u ul li
+{
+	height: 60px; 
+	width:115px;
+	height:70px;
+	position: relative;
+	padding:0;
+}
+li{ list-style:none;}
+ul{
+	margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+	}
+
+#button
+{
+	cursor: pointer;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+}
+#button li
+{
+	background-color: #2175BC;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-family: Arial;
+    font-size: 11px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+}
+#button li:hover, #button li.active { 
+	background-color:#045e95;
+ }
+ 
+.beneficios
+{
+cursor:pointer;
+	margin: 12px -92px;
+}
+.pestana
+{
+	width: 12px;
+float: right;
+height: 14px;
+background: url(../imagenes/arrow_sprite.png) no-repeat ;
+position: relative;
+bottom: 27px;
+right: 26px;
+}
+.pestana:hover
+{
+width: 12px;
+height: 14px;
+background-position:-12px 0px;
+
+}
+iframe
+{
+	background-color:transparent;
+}
+a 
+{
+	background:#00C;
+}
+@font-face {
+	font-family: "Flaticon";
+	src: url("fonts/flaticon.eot");
+	src: url("fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("fonts/flaticon.woff") format("woff"),
+	url("fonts/flaticon.ttf") format("truetype"),
+	url("fonts/font/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	display: block;
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+}.flaticon-oven1:before {
+	content: "\e000";
+}
+.flaticon-refrigerator2:before {
+	content: "\e001";
+}
